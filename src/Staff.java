@@ -4,6 +4,8 @@ public class Staff extends User {
     private String role;
 
     public Staff(String nickname, String password, String name, String lastName, int age, String registerNumber, String role){
+        //this = dados dessa CLASSE
+        //super = dados da classe mãe
         super(nickname, password, name, lastName, age);
 
         this.registerNumber = registerNumber;
